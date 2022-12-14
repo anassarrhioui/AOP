@@ -1,4 +1,4 @@
-package me.arrhioui.springaoptest1.aspact;
+package me.arrhioui.springaoptest1.aspect;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,7 +1,7 @@
 package me.arrhioui.springaoptest1.service;
 
-import me.arrhioui.springaoptest1.aspact.SecuredBy;
-import me.arrhioui.springaoptest1.aspact.Timer;
+import me.arrhioui.springaoptest1.aspect.SecuredBy;
+import me.arrhioui.springaoptest1.aspect.Timer;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package me.arrhioui.springaoptest1.aspact;
+package me.arrhioui.springaoptest1.aspect;
 
 import lombok.extern.java.Log;
 import org.aspectj.lang.JoinPoint;
@@ -26,7 +26,7 @@ public class LogAspect {
         log.info("Before Process");
     }
 
-    @Around("@annotation(me.arrhioui.springaoptest1.aspact.Timer)")
+    @Around("@annotation(me.arrhioui.springaoptest1.aspect.Timer)")
     public Object timerAdvice(ProceedingJoinPoint pjp) throws Throwable {
         long start = System.currentTimeMillis();
         Object proceed = pjp.proceed();
